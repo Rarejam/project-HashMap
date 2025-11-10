@@ -255,6 +255,21 @@ const map = new HashMap();
 map.set("jamal", "developer");
 map.set("react", "library");
 map.set("jamal", "teacher"); // updates
+
+map.set("apple", "red");
+map.set("banana", "yellow");
+map.set("carrot", "orange");
+map.set("dog", "brown");
+map.set("elephant", "gray");
+map.set("frog", "green");
+map.set("grape", "purple");
+map.set("hat", "black");
+map.set("ice cream", "white");
+map.set("jacket", "blue");
+map.set("kite", "pink");
+map.set("lion", "golden");
+map.set("moon", "silver");
+
 // console.log(map.get("james")); //retuns null
 // console.log(map.get("jamal")); //returns teacher
 
@@ -270,3 +285,4 @@ console.log(map.length()); //returns the no of keys in the hashmap
 // console.log(map.values()); //returns an array of all the values in the hashmap
 // console.log(map.entries()); //returns an array of all the entries in the hashmap
 console.log(map.length()); //returns the no of keys in the hashmap
+console.log(map.capacity); //capacity doubles to avoid collision
